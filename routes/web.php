@@ -8,9 +8,9 @@ Route::get('/list-product', [ProductController::class, 'index']);
 
 Route::get('/list-product', function () {
     $data = [
-        ['id' => 1, 'produk' => 'Gitar'],
-        ['id' => 2, 'produk' => 'Biola'],
-        ['id' => 3, 'produk' => 'Drum'],
+        ['id' => 1, 'produk' => 'Iphone 12'],
+        ['id' => 2, 'produk' => 'Iphone 14'],
+        ['id' => 3, 'produk' => 'Iphone 16'],
     ];
     return view('list_product', ['data' => $data]);
 });
