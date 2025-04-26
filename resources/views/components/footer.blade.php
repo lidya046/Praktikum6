@@ -1,0 +1,1 @@
+<p>&copy; {{ date('format: 'Y'') }} My App</p>
